@@ -6,7 +6,7 @@ Can load and create RGB bitmaps.
 
 
 Example usage
-'''
+```
 Bitmap newBitmap;
 Bitmap oldBitmap;
 
@@ -22,4 +22,4 @@ for (int x = 0; x < width; x++) {
 
 newBitmap.Save();
 oldBitmap.Save();
-'''
+```
