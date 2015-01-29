@@ -145,7 +145,7 @@ bool Bitmap::SetPixel(unsigned int x, unsigned int y, const RGBColor& pixel)
 
 bool Bitmap::Save()
 {
-	std::ofstream file(filename, std::ios::out | std::ios::binary);
+	std::ofstream file(filename.c_str(), std::ios::out | std::ios::binary);
 
 	if (!file.is_open())
 		return false;
